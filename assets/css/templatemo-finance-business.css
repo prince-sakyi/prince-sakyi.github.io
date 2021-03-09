@@ -1,4 +1,4 @@
-/* 
+/*
 
 TemplateMo - Finance Business
 
@@ -32,21 +32,21 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
 
-a.filled-button {
-	background-color: #a4c639;
+a.btn {
+	background-color: #007FFF;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;
-	padding: 12px 30px;
-	border-radius: 30px;
+	padding: 8px 20px;
+	border-radius: 10px;
 	display: inline-block;
 	transition: all 0.3s;
 }
 
-a.filled-button:hover {
+a.btn:hover {
 	background-color: #fff;
-	color: #a4c639;
+	color: #007FFF;
 }
 
 a.border-button {
@@ -69,7 +69,9 @@ a.border-button:hover {
 
 .section-heading {
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
+  padding-top: 50px;
+
 }
 
 .section-heading h2 {
@@ -80,7 +82,7 @@ a.border-button:hover {
 
 .section-heading em {
 	font-style: normal;
-	color: #a4c639;
+	color: #2B4F81;
 }
 
 .section-heading span {
@@ -173,7 +175,7 @@ a.border-button:hover {
 
 /*#short-bio{
   background-color: #a4c639;
-  
+
 }
 
 #short-bio-section {
@@ -184,7 +186,7 @@ a.border-button:hover {
 /* Sub Header Style */
 
 .sub-header {
-	background-color: #a4c639;
+	background-color: #000;
 	height: 46px;
 	line-height: 46px;
 }
@@ -204,7 +206,7 @@ a.border-button:hover {
 
 .sub-header ul.left-info li i {
 	margin-right: 10px;
-	font-size: 18px;
+	font-size: 25px;
 }
 
 .sub-header ul.left-info li a {
@@ -237,6 +239,33 @@ a.border-button:hover {
 .sub-header ul.right-icons li a:hover {
 	opacity: 0.75;
 }
+
+/*.sub-header .fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}*/
+
+.fa-linkedin{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-phone {
+  color: #a4c639;
+}
+
+.fa-envelope{
+  color: #fff;
+}
+
+.fa-map-marker {
+  color: 	#DC143C;
+}
+
+
 
 
 
@@ -327,7 +356,7 @@ header .navbar {
 }
 .navbar .navbar-toggler {
 	border-color: #fff;
-	background-color: #fff;	
+	background-color: #fff;
 	height: 36px;
 	outline: none;
 	border-radius: 0px;
@@ -526,6 +555,13 @@ ul.slick-dots {
 .slick-loading .slick-slide{visibility:hidden}
 .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
 
+.mybio {
+  background-color: #E6E6FA;
+}
+
+.mybio img{
+  padding-top: 10px;
+}
 
 
 
@@ -716,7 +752,7 @@ ul.slick-dots {
 }
 .testimonial-item .inner-content {
 	text-align: center;
-	background-color: #fff;	
+	background-color: #fff;
 	padding: 30px;
 	border-radius: 5px;
 }
@@ -1130,7 +1166,12 @@ footer .contact-form button.filled-button:hover {
 /* Single Service */
 
 .single-services {
-	margin-top: 140px;
+	/*margin-top: 140px;*/
+  background-color: #E6E6FA;
+}
+
+.single-services p {
+  padding-bottom:50px;
 }
 
 #tabs ul {
@@ -1150,7 +1191,7 @@ footer .contact-form button.filled-button:hover {
 	width: 100%;
 	padding: 30px 30px;
 	display: inline-block;
-	background-color: #a4c639;
+	background-color: #007FFF	;
   	font-size: 20px;
   	color: #121212;
   	letter-spacing: 0.5px;
@@ -1173,7 +1214,7 @@ footer .contact-form button.filled-button:hover {
 #tabs ul .ui-tabs-active span {
   color: #1e1e1e;
 }
-.tabs-content {
+.contact-item {
 	margin-left: 30px;
   text-align: left;
   display: inline-block;
@@ -1191,8 +1232,8 @@ footer .contact-form button.filled-button:hover {
 	margin-top: 30px;
 }
 .tabs-content p {
-  font-size: 14px;
-  color: #7a7a7a;
+  font-size: 18px;
+  color: #343434;
   margin-bottom: 0px;
 }
 
@@ -1201,24 +1242,27 @@ footer .contact-form button.filled-button:hover {
 
 /* Contact Information */
 
-.contact-information {
+/*.contact-information {
 	margin-top: 140px;
-}
+}*/
 
 .contact-information .contact-item {
 	padding: 60px 30px;
-	background-color: #f7f7f7;
+	background-color: #000;
+  border-radius: 10px;
 	text-align: center;
+  /*border: 5px solid #000;*/
 }
 
 .contact-information .contact-item i {
-	color: #a4c639;
+	/*color: #007FFF	;*/
 	font-size: 48px;
 	margin-bottom: 40px;
 }
 
 .contact-information .contact-item h4 {
 	font-size: 20px;
+  color:#fff;
 	font-weight: 700;
 	letter-spacing: 0.25px;
 	margin-bottom: 15px;
@@ -1226,11 +1270,13 @@ footer .contact-form button.filled-button:hover {
 
 .contact-information .contact-item p {
 	margin-bottom: 20px;
+  font-size: 15px;
+  color:#fff;
 }
 
 .contact-information .contact-item a {
 	font-weight: 600;
-	color: #a4c639;
+	color: #007FFF	;
 	font-size: 15px;
 }
 
@@ -1245,7 +1291,7 @@ footer .contact-form button.filled-button:hover {
 		display: none;
 	}
 	.iframez{
-		width:402px;
+		width:430px;
 		height: 346px;
 	}
 	.Modern-Slider .item h6 {
@@ -1275,6 +1321,19 @@ footer .contact-form button.filled-button:hover {
 	#short-bio {
 		font-size:50px;
 	}
+
+  a.btn {
+  	background-color: #007FFF;
+  	color: #fff;
+  	font-size: 17px;
+  	text-transform: uppercase;
+  	font-weight: 700;
+  	padding: 8px 20px;
+  	border-radius: 10px;
+  	display: inline-block;
+  	transition: all 0.3s;
+  }
+
 	.request-form {
 		text-align: center;
 	}
@@ -1374,6 +1433,17 @@ footer .contact-form button.filled-button:hover {
 	#short-bio {
 		font-size:50px;
 	}
+  a.btn {
+  	background-color: #007FFF;
+  	color: #fff;
+  	font-size: 17px;
+  	text-transform: uppercase;
+  	font-weight: 700;
+  	padding: 8px 20px;
+  	border-radius: 10px;
+  	display: inline-block;
+  	transition: all 0.3s;
+  }
 	.iframez{
 		width:750px;
 		height: 248px;
