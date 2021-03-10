@@ -8,7 +8,9 @@
     <meta name="description" content="An upcoming financial analyst in Ghana">
     <meta name="author" content="Prince Kobina Sakyi">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Prince Sakyi</title>
 
     <!-- Bootstrap core CSS -->
@@ -95,11 +97,11 @@ https://templatemo.com/tm-545-finance-business
           <span id="actual-bio" class="intro-bio">I am Prince Sakyi, a Finance and
             Accounting graduate specialising in financial data analysis, receivables management,
              auditing, and payroll accounting. </span><br><br>
-          <a href="https://www.coursera.org/account/accomplishments/certificate/HXL8M45U7W5F"
+          <a href="assets/princeCV.pdf"
              target="_blank" class="btn btn-primary"><strong>Here's my CV</strong></a>
         </div>
-        <div class="col-md-5">
-          <img id="short-bioimg" src="assets/images/prince.png" alt="Prince">
+        <div id="short-bio-img" class="col-md-5">
+          <img src="assets/images/prince.png" alt="Prince">
         </div>
       </div>
     </div>
@@ -126,7 +128,7 @@ https://templatemo.com/tm-545-finance-business
     <ol class="carousel-indicators">
       <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
       <li data-target="#multi-item-example" data-slide-to="1"></li>
-      <li data-target="#multi-item-example" data-slide-to="2"></li>
+
     </ol>
     <!--/.Indicators-->
 
@@ -235,7 +237,113 @@ https://templatemo.com/tm-545-finance-business
   </div>
   <!--/.Carousel Wrapper-->
 
+<!--Mobile View Carousel-->
+  <div id="mobile-view-carousel" class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+      </ol>
 
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <div class="card mb-2">
+            <img class="card-img-top" src="assets/images/pwc.png"
+                 alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Problem Solving with Excel-PwC approach</h2><br>
+              <h4 class="card-text">Issued by: PWC </h4><br><br>
+              <a href="https://www.coursera.org/account/accomplishments/certificate/62JWZ3F94BBY"
+              target="_blank" class="btn btn-primary"><strong>View Certificate</strong></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card mb-2">
+            <img class="card-img-top" src="assets/images/excel-3.png"
+                 alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Data Visualization with Advanced Excel</h2><br>
+              <h4 class="card-text">Issued by: PWC</h4><br><br>
+              <a href="https://www.coursera.org/account/accomplishments/certificate/HDCCSQMDM3YY"
+              target="_blank" class="btn btn-primary"><strong>View Certificate</strong></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card mb-2">
+            <img class="card-img-top" src="assets/images/fs-1.jpg"
+                 alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Reading Financial Statements</h2><br>
+              <h4 class="card-text">Issued by: Corporate Finance Institute</h4><br><br>
+              <a href="assets/fs.pdf" class="btn btn-primary"
+              target="_blank"><strong>View Certificate</strong></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card mb-2">
+            <img class="card-img-top" src="assets/images/excel-2.png"
+                 alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Excel Skills for Business: Essentials</h2><br>
+              <h4 class="card-text">Issued by: Macquarie University</h4><br><br>
+              <a href="https://www.coursera.org/account/accomplishments/certificate/HXL8M45U7W5F"
+              target="_blank" class="btn btn-primary"><strong>View Certificate</strong></a>
+            </div>
+          </div>
+        </div>
+
+          <div class="item">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/data-driven.jpg"
+                   alt="Card image cap">
+              <div class="card-body">
+                <h2 class="card-title">Data-driven Decision Making</h2><br>
+                <h4 class="card-text">Issued by: PWC</h4><br><br>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/MVJXMU6MZEH2"
+                target="_blank" class="btn btn-primary"><strong>View Certificate</strong></a>
+              </div>
+            </div>
+        </div>
+
+        <div class="item">
+          <div class="card mb-2">
+            <img class="card-img-top" src="assets/images/absa.jpg"
+                 alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Work Skills</h2><br><br>
+              <h4 class="card-text">Issued by: ABSA</h4><br><br>
+              <a href="assets/absa.pdf" class="btn btn-primary"
+              target="_blank"><strong>View Certificate</strong></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div><br>
 </div>
 
     <div class="single-services">
