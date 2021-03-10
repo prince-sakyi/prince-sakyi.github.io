@@ -563,6 +563,15 @@ ul.slick-dots {
   padding-top: 10px;
 }
 
+/*carousel*/
+.carousel-indicators li {
+  visibility:hidden;
+}
+
+.card-body a{
+  padding-bottom: 10px;
+}
+
 
 
 /* Request Form */
@@ -1321,6 +1330,12 @@ footer .contact-form button.filled-button:hover {
 	#short-bio {
 		font-size:50px;
 	}
+  #short-bio-img{
+    text-align: center;
+  }
+  #multi-item-example{
+    display:none;
+  }
 
   a.btn {
   	background-color: #007FFF;
@@ -1333,6 +1348,7 @@ footer .contact-form button.filled-button:hover {
   	display: inline-block;
   	transition: all 0.3s;
   }
+
 
 	.request-form {
 		text-align: center;
@@ -1424,6 +1440,9 @@ footer .contact-form button.filled-button:hover {
 	#short-bio {
 		font-size:40px;
 	}
+  #multi-item-example{
+    display:none;
+  }
 }
 
 @media (min-width: 993px){
@@ -1443,6 +1462,9 @@ footer .contact-form button.filled-button:hover {
   	border-radius: 10px;
   	display: inline-block;
   	transition: all 0.3s;
+  }
+  #mobile-view-carousel {
+      display: none;
   }
 	.iframez{
 		width:750px;
