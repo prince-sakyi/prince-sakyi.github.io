@@ -572,6 +572,17 @@ ul.slick-dots {
   padding-bottom: 10px;
 }
 
+.fa-chevron-left, .fa-chevron-right{
+  font-size: 40px;
+}
+
+.fa-chevron-right {
+  position: absolute;
+  right: 0px;
+
+}
+
+
 
 
 /* Request Form */
