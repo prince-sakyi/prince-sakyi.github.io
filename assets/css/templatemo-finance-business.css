@@ -1458,10 +1458,10 @@ footer .contact-form button.filled-button:hover {
 
 @media (min-width: 993px){
 	#actual-bio{
-		font-size:40px;
+		font-size:38px;
 	}
 	#short-bio {
-		font-size:50px;
+		font-size:45px;
 	}
   a.btn {
   	background-color: #007FFF;
